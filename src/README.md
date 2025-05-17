@@ -1,25 +1,25 @@
 # Proyecto Mocking API
 
-## 📦 Instalación
+##  Instalación
 
 ```bash
 npm install
 ```
 
-## ▶️ Uso local
+##  Uso local
 
 ```bash
 npm run dev
 ```
 
-## 🐳 Docker
+##  Docker
 
 ```bash
 docker build -t tuusuario/mocking-api .
 docker run -p 8080:8080 tuusuario/mocking-api
 ```
 
-## 🔗 Endpoints disponibles
+##  Endpoints disponibles
 
 - `GET /api/mocks/mockingusers` → Genera 50 usuarios falsos
 - `GET /api/mocks/mockingpets` → Genera 10 mascotas falsas
